@@ -13,7 +13,7 @@ let currentStatus
 //national weather service requires 2 API requests
 axios.get('https://api.weather.gov/points/40.1047,-88.2243', {headers: {'User-Agent': 'isJamesBurning.netlify.app/contact:jemsgold21@gmail.com'}}) //first API req
 .then(response => {
-    //console.log(JSON.stringify(response.data));
+    console.log(JSON.stringify(response.data));
     const dataJSON = response.data
 
     //second API call
