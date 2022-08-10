@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "year": 2022,
+        "transaction": "001",
+        "firstName": "Gregory",
+        "lastName": "Parks",
+        "netID": "gparks",
+        "datetime": "3/20/2022 1:50:00 PM",
+        "isNotify": false,
+        "isEngaged": false,
+        "access": [
+            {
+                "keyCode": "",
+                "room": "AE114",
+                "buildingId": "0197",
+                "buildingName": "Turner Hall",
+                "isApproved": true,
+                "apporvaldByName": "Parks, Greogry",
+                "apporvalByNetID": "gparks",
+                "dateTimeApproved": "3/20/2022 2:30:32 PM"
+            },
+            {
+                "keyCode": "",
+                "room": "AE116",
+                "buildingId": "0197",
+                "buildingName": "Turner Hall",
+                "isApproved": true,
+                "apporvaldByName": "Parks, Greogry",
+                "apporvalByNetID": "gparks",
+                "dateTimeApproved": "3/20/2022 2:31:00 PM"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "year": 2022,
+        "transaction": "002",
+        "firstName": "James",
+        "lastName": "Kim",
+        "netID": "jhkim21",
+        "datetime": "3/21/2022 1:50:00 PM",
+        "isNotify": false,
+        "isEngaged": false,
+        "access": [
+            {
+                "keyCode": "",
+                "room": "M5",
+                "buildingId": "0197",
+                "buildingName": "Turner Hall",
+                "isApproved": true,
+                "apporvaldByName": "Parks, Greogry",
+                "apporvalByNetID": "gparks",
+                "dateTimeApproved": "3/21/2022 2:30:32 PM"
+            },
+            {
+                "keyCode": "",
+                "room": "W121",
+                "buildingId": "0197",
+                "buildingName": "Turner Hall",
+                "isApproved": true,
+                "apporvaldByName": "Parks, Greogry",
+                "apporvalByNetID": "gparks",
+                "dateTimeApproved": "3/21/2022 2:31:00 PM"
+            }
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "Id": 1,
+        "netID": "gparks",
+        "firstName": "Gregory",
+        "lastName": "Parks",
+        "UIN": "65999991"
+    },
+    {
+        "Id": 2,
+        "netID": "gabeg",
+        "firstName": "Gabriel",
+        "lastName": "Gibson",
+        "UIN": "65999992"
+    },
+    {
+        "Id": 3,
+        "netID": "trankina",
+        "firstName": "Bradley",
+        "lastName": "Trankina",
+        "UIN": "65999993"
+    }
+]

@@ -1,0 +1,101 @@
+.wizard li {
+  color: #000;
+  display: inline-block;
+  position: relative;
+  background: #ccc;
+  padding: 15px 0;
+  width: 300px;
+  text-align: center;
+  margin: 2px;
+}
+
+.wizard li:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 0;
+  height: 0;
+}
+
+.wizard li.inprogress {
+  color: #fff;
+  background: #337ab7;
+  height: 120px;
+  padding: 20px;
+  text: "Inpogress";
+}
+
+.wizard li.inprogress:after {
+  border-top: 20px solid #337ab7;
+  border-right: 150px solid transparent;
+  border-bottom: 0 solid transparent;
+  border-left: 150px solid transparent;
+}
+
+.wizard li.complete {
+  color: #fff;
+  background: #8d8d8d;
+}
+
+.wizard li.complete:after {
+  border-top: 0px;
+}
+
+.circle {
+  margin: 10px;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  padding: 4px;
+  border: 2px solid #ccc;
+  color: #fff;
+  text-align: center;
+
+  /*  width: 100px; height: 100px; background: red; border-radius: 50% */
+}
+
+.circle-active {
+  background-color: #28a745;
+  cursor: pointer;
+  animation: pulse 2s infinite;
+}
+
+
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.4);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(40, 167, 69, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.4);
+    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.4);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(40, 167, 69, 0);
+    box-shadow: 0 0 0 10px rgba(40, 167, 69, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
+    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
+  }
+}
+
+.slice {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  transform-origin: 0% 100%;
+}

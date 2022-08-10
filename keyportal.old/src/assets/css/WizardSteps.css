@@ -1,0 +1,27 @@
+.circle {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 4px;
+    color: #fff;
+    margin: 5px;
+}
+
+.circle.active {
+    background: #0d6efd;
+}
+
+.circle.inactive {
+    background: #6c757d;
+}
+
+.circle.complete {
+    background: #000;
+}
+
+
+.circles-active {
+  background-color: #28a745;
+  cursor: pointer;
+  animation: pulse 2s infinite;
+}
